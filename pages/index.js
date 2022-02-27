@@ -21,10 +21,12 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/equity" className={styles.card}>
+          <Link href="/equity" className={styles.card}>
+            <div>
             <h2>Equity 🍏 &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+            </div>
+          </Link>
 
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Etherealism 🕊 &rarr;</h2>
